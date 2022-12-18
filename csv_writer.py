@@ -7,3 +7,4 @@ class CSV_Retrieve:
     def add_restaurant(self, restaurant_info=None):
         with open(self.file, 'w', encoding='UTF8') as f:
             writer = csv.writer(f)
+            writer.writerow(restaurant_info)
