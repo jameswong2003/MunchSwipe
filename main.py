@@ -1,5 +1,6 @@
 import requests
 import urllib
+from urllib.parse import quote
 
 YELP_HOST = 'https://api.yelp.com/v3'
 SEARCH_PATH = '/businesses/search'
@@ -20,7 +21,7 @@ def request(host, path, api_key, url_params=None):
         HTTPError: An error occurs from the HTTP request.
     """
     url_params = url_params or {}
-    url = '{0}{1}'.format(host, urllib.quote(path.encode('utf8')))
+    url = '{0}{1}'.format(host, quote(path.encode('utf8')))
     headers = {
         'Authorization': 'Bearer %s' % api_key,
     }
@@ -30,4 +31,4 @@ def request(host, path, api_key, url_params=None):
     response = requests.request('GET', url, headers=headers, params=url_params)
     return response.json()
 
-    
+print(request(YELP_HOST, SEARCH_PATH, API_KEY))
