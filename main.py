@@ -20,7 +20,14 @@ def request(host, path, api_key, url_params=None):
         HTTPError: An error occurs from the HTTP request.
     """
     url_params = url_params or {}
-    url = '{0}{1}'.format(host, quote(path.encode('utf8')))
+    url = '{0}{1}'.format(host, urllib.quote(path.encode('utf8')))
     headers = {
         'Authorization': 'Bearer %s' % api_key,
     }
+
+    print(u'Querying {0} ...'.format(url))
+
+    response = requests.request('GET', url, headers=headers, params=url_params)
+    return response.json()
+
+    
