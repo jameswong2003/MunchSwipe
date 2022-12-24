@@ -1,5 +1,5 @@
-import csv_writer
 import requests
+import urllib
 
 YELP_HOST = 'https://api.yelp.com/v3'
 SEARCH_PATH = '/businesses/search'
@@ -19,3 +19,8 @@ def request(host, path, api_key, url_params=None):
     Raises:
         HTTPError: An error occurs from the HTTP request.
     """
+    url_params = url_params or {}
+    url = '{0}{1}'.format(host, quote(path.encode('utf8')))
+    headers = {
+        'Authorization': 'Bearer %s' % api_key,
+    }
