@@ -13,4 +13,5 @@ with open('database/data.json', 'w') as outfile:
 # Choose a random restaurant from the data.json file
 infile = open('database/data.json')
 data = json.load(infile)
-print(random.choice(data['businesses']))
+selected_restaurant = random.choice(data['businesses'])
+print(json.dumps(selected_restaurant, indent=4))

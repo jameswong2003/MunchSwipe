@@ -28,8 +28,8 @@
                 "longitude": -73.99977392649927
             },
             "transactions": [
-                "delivery",
-                "pickup"
+                "pickup",
+                "delivery"
             ],
             "price": "$$",
             "location": {
@@ -77,8 +77,8 @@
                 "longitude": -73.99597
             },
             "transactions": [
-                "delivery",
                 "pickup",
+                "delivery",
                 "restaurant_reservation"
             ],
             "price": "$$",
