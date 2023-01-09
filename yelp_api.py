@@ -4,8 +4,6 @@ from urllib.parse import quote
 API_HOST = 'https://api.yelp.com/v3'
 SEARCH_PATH = '/businesses/search'
 
-API_KEY = 'uOLbbY-fBlAGs1rdFA9g-LMxHuQoqrcbnPI1t_tIDvVMCF6WUrsE6TQYAatNCP6M3gB9rNKcB6rAhyIlR09j4MsE42iw7eCAeJdOJde0bEj4yn4tQnfXJv4M6fGkY3Yx'
-
 SEARCH_LIMIT = 3
 
 class Yelp:
