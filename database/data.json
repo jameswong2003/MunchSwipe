@@ -1,63 +1,13 @@
 {
     "businesses": [
         {
-            "id": "hdiuRS9sVZSMReZm4oV5SA",
-            "alias": "da-andrea-new-york",
-            "name": "Da Andrea",
-            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ZbJxx7Rl8fUH7Pg4GU2p3g/o.jpg",
+            "id": "zj8Lq1T8KIC5zwFief15jg",
+            "alias": "prince-street-pizza-new-york-2",
+            "name": "Prince Street Pizza",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/I4gm7i1zoamgAk1hmOKbKw/o.jpg",
             "is_closed": false,
-            "url": "https://www.yelp.com/biz/da-andrea-new-york?adjust_creative=qGQbrbnktTBl-PLNGpC4Jg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=qGQbrbnktTBl-PLNGpC4Jg",
-            "review_count": 1739,
-            "categories": [
-                {
-                    "alias": "italian",
-                    "title": "Italian"
-                },
-                {
-                    "alias": "mediterranean",
-                    "title": "Mediterranean"
-                },
-                {
-                    "alias": "breakfast_brunch",
-                    "title": "Breakfast & Brunch"
-                }
-            ],
-            "rating": 4.5,
-            "coordinates": {
-                "latitude": 40.736218,
-                "longitude": -73.99597
-            },
-            "transactions": [
-                "pickup",
-                "delivery",
-                "restaurant_reservation"
-            ],
-            "price": "$$",
-            "location": {
-                "address1": "35 W 13th St",
-                "address2": "",
-                "address3": "",
-                "city": "New York",
-                "zip_code": "10011",
-                "country": "US",
-                "state": "NY",
-                "display_address": [
-                    "35 W 13th St",
-                    "New York, NY 10011"
-                ]
-            },
-            "phone": "+12123671979",
-            "display_phone": "(212) 367-1979",
-            "distance": 3424.7293369303584
-        },
-        {
-            "id": "16ZnHpuaaBt92XWeJHCC5A",
-            "alias": "olio-e-pi\u00f9-new-york-7",
-            "name": "Olio e Pi\u00f9",
-            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Nn4I1SG0pYmqCyJPlArYOQ/o.jpg",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/olio-e-pi%C3%B9-new-york-7?adjust_creative=qGQbrbnktTBl-PLNGpC4Jg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=qGQbrbnktTBl-PLNGpC4Jg",
-            "review_count": 3883,
+            "url": "https://www.yelp.com/biz/prince-street-pizza-new-york-2?adjust_creative=qGQbrbnktTBl-PLNGpC4Jg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=qGQbrbnktTBl-PLNGpC4Jg",
+            "review_count": 4728,
             "categories": [
                 {
                     "alias": "pizza",
@@ -66,89 +16,121 @@
                 {
                     "alias": "italian",
                     "title": "Italian"
-                },
-                {
-                    "alias": "cocktailbars",
-                    "title": "Cocktail Bars"
                 }
             ],
             "rating": 4.5,
             "coordinates": {
-                "latitude": 40.733798036104304,
-                "longitude": -73.99977392649927
+                "latitude": 40.72308755605564,
+                "longitude": -73.99453001177575
             },
             "transactions": [
                 "pickup",
                 "delivery"
             ],
-            "price": "$$",
+            "price": "$",
             "location": {
-                "address1": "3 Greenwich Ave",
+                "address1": "27 Prince St",
                 "address2": null,
-                "address3": "",
-                "city": "New York",
-                "zip_code": "10014",
-                "country": "US",
-                "state": "NY",
-                "display_address": [
-                    "3 Greenwich Ave",
-                    "New York, NY 10014"
-                ]
-            },
-            "phone": "+12122436546",
-            "display_phone": "(212) 243-6546",
-            "distance": 3186.3804982206075
-        },
-        {
-            "id": "WG639VkTjmK5dzydd1BBJA",
-            "alias": "rubirosa-new-york-2",
-            "name": "Rubirosa",
-            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/LuSzR8cpVQRofXOT_bMi1A/o.jpg",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/rubirosa-new-york-2?adjust_creative=qGQbrbnktTBl-PLNGpC4Jg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=qGQbrbnktTBl-PLNGpC4Jg",
-            "review_count": 2861,
-            "categories": [
-                {
-                    "alias": "italian",
-                    "title": "Italian"
-                },
-                {
-                    "alias": "pizza",
-                    "title": "Pizza"
-                }
-            ],
-            "rating": 4.5,
-            "coordinates": {
-                "latitude": 40.722766,
-                "longitude": -73.996233
-            },
-            "transactions": [
-                "pickup"
-            ],
-            "price": "$$",
-            "location": {
-                "address1": "235 Mulberry St",
-                "address2": "",
                 "address3": "",
                 "city": "New York",
                 "zip_code": "10012",
                 "country": "US",
                 "state": "NY",
                 "display_address": [
-                    "235 Mulberry St",
+                    "27 Prince St",
                     "New York, NY 10012"
                 ]
             },
-            "phone": "+12129650500",
-            "display_phone": "(212) 965-0500",
-            "distance": 1932.9467701334759
+            "phone": "+12129664100",
+            "display_phone": "(212) 966-4100",
+            "distance": 2209.3116178604555
+        },
+        {
+            "id": "ysqgdbSrezXgVwER2kQWKA",
+            "alias": "julianas-brooklyn-3",
+            "name": "Juliana's",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NVoLFle5H-SHNN6piAKIYw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/julianas-brooklyn-3?adjust_creative=qGQbrbnktTBl-PLNGpC4Jg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=qGQbrbnktTBl-PLNGpC4Jg",
+            "review_count": 2601,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.70274718768062,
+                "longitude": -73.99343490196397
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "19 Old Fulton St",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11201",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "19 Old Fulton St",
+                    "Brooklyn, NY 11201"
+                ]
+            },
+            "phone": "+17185966700",
+            "display_phone": "(718) 596-6700",
+            "distance": 1289.8572856708206
+        },
+        {
+            "id": "v1DHGRNCH9247WLYoaoA9A",
+            "alias": "l-industrie-pizzeria-brooklyn",
+            "name": "L'industrie Pizzeria",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/NT9kSPFER2LjsjjiTqJiKw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/l-industrie-pizzeria-brooklyn?adjust_creative=qGQbrbnktTBl-PLNGpC4Jg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=qGQbrbnktTBl-PLNGpC4Jg",
+            "review_count": 861,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.71162,
+                "longitude": -73.95783
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "254 S 2nd St",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11211",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "254 S 2nd St",
+                    "Brooklyn, NY 11211"
+                ]
+            },
+            "phone": "+17185990002",
+            "display_phone": "(718) 599-0002",
+            "distance": 1868.2955120772579
         }
     ],
-    "total": 6000,
+    "total": 15900,
     "region": {
         "center": {
-            "longitude": -73.99429321289062,
-            "latitude": 40.70544486444615
+            "longitude": -73.97918701171875,
+            "latitude": 40.706977710584276
         }
     }
 }
