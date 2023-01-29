@@ -4,7 +4,7 @@ from urllib.parse import quote
 API_HOST = 'https://api.yelp.com/v3'
 SEARCH_PATH = '/businesses/search'
 
-SEARCH_LIMIT = 3
+SEARCH_LIMIT = 20
 
 class Yelp:
     def request(host, path, api_key, url_params=None):

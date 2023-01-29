@@ -3,3 +3,17 @@ body {
     font-family: sans-serif;
     text-align: center;
 }
+
+form {
+    margin-top:50px;
+}
+
+.result_content {
+    margin-top: 50px
+}
+
+#restaurant_image {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
