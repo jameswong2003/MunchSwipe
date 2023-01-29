@@ -29,7 +29,7 @@ def result():
     with open(database_path, 'r') as f:
         data = json.load(f)
         result = random.choice(data['businesses'])
-    return result
+    return render_template('result.html', result=result)
 
 if __name__ == "__main__":
     app.run(debug=True)

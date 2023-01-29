@@ -4,6 +4,11 @@
 {% endblock %}
 
 {% block body %}
-<div>result body</div>
+<div class='result_content' method="GET">
+    <div id="restaurant_name"> {{result['name']}} </div>
+    <img id='restaurant_image' src="{{ result['image_url'] }}">
+    <div id='restaurant_address'> {{result['location']['display_address']}} </div>
+    <div id='restaurant_phone'> {{result['phone']}} </div>
+</div> 
 
 {% endblock %}
